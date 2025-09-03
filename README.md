@@ -21,14 +21,14 @@ Download the latest release from [GitHub Releases](https://github.com/osjupiter/
 
 ```bash
 git clone https://github.com/osjupiter/kdlc.git
-cd kdlc/tool/kdlc
+cd kdlc
 go build -o kdlc main.go
 ```
 
 ### Using Go Install
 
 ```bash
-go install github.com/osjupiter/kdlc/tool/kdlc@latest
+go install github.com/osjupiter/kdlc@latest
 ```
 
 ## Usage

@@ -31,11 +31,9 @@ jobs:
           ${{ runner.os }}-go-
 
     - name: Download dependencies
-      working-directory: ./tool/kdlc
       run: go mod download
 
     - name: Run tests
-      working-directory: ./tool/kdlc
       run: go test ./...
 
     - name: Run GoReleaser
@@ -44,6 +42,5 @@ jobs:
         distribution: goreleaser
         version: latest
         args: release --clean
-        workdir: ./tool/kdlc
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

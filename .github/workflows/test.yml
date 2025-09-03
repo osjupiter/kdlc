@@ -27,21 +27,18 @@ jobs:
           ${{ runner.os }}-go-
 
     - name: Download dependencies
-      working-directory: ./tool/kdlc
       run: go mod download
 
     - name: Run tests
-      working-directory: ./tool/kdlc
       run: go test -v ./...
 
     - name: Run tests with coverage
-      working-directory: ./tool/kdlc
       run: go test -coverprofile=coverage.out ./...
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
       with:
-        file: ./tool/kdlc/coverage.out
+        file: ./coverage.out
         flags: unittests
         name: codecov-umbrella
         fail_ci_if_error: false
