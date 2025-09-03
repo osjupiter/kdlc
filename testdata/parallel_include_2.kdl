@@ -1,0 +1,4 @@
+item "sword" damage=15
+item "potion" healing=20
+button "Cancel" x=200 y=100
+button "OK" x=150 y=150

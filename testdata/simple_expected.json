@@ -1,0 +1,16 @@
+{
+  "scene": {
+    "arg1": "SimpleScene",
+    "node": {
+      "arg1": "Button",
+      "height": 50,
+      "width": 200,
+      "x": 100,
+      "y": 100,
+      "component": {
+        "arg1": "Button",
+        "text": "Click me"
+      }
+    }
+  }
+}

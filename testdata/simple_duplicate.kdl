@@ -1,0 +1,3 @@
+item "sword" damage=10
+item "shield" defense=5
+item "sword" damage=15

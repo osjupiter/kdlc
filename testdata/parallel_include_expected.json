@@ -1,0 +1,41 @@
+{
+  "item": [
+    {
+      "arg1": "sword",
+      "damage": 10
+    },
+    {
+      "arg1": "shield",
+      "defense": 5
+    },
+    {
+      "arg1": "sword",
+      "damage": 15
+    },
+    {
+      "arg1": "potion",
+      "healing": 20
+    }
+  ],
+  "button": [
+    {
+      "arg1": "OK",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "arg1": "Cancel",
+      "x": 200,
+      "y": 100
+    },
+    {
+      "arg1": "OK",
+      "x": 150,
+      "y": 150
+    }
+  ],
+  "scene": {
+    "arg1": "ParallelIncludeScene",
+    "title": "Scene with Parallel Includes"
+  }
+}

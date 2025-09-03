@@ -1,0 +1,3 @@
+item "sword" "weapon" damage=10
+button "OK" "primary" x=100 y=100
+config "app" "settings" version="1.0" theme="dark"

@@ -1,0 +1,10 @@
+node "Button1" x=100 y=100
+node "Button2" x=200 y=100
+node "Button1" x=300 y=200
+node "Button1" x=400 y=300
+
+config {
+    item "sword" damage=10
+    item "shield" defense=5
+    item "sword" damage=15
+}

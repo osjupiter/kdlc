@@ -1,0 +1,6 @@
+@include "parallel_include_1.kdl"
+@include "parallel_include_2.kdl"
+
+scene "ParallelIncludeScene" {
+    title "Scene with Parallel Includes"
+}
